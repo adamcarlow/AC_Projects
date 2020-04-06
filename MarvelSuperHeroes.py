@@ -46,16 +46,6 @@ btn_upload.observe(on_click, names=['data'])
 display(VBox([widgets.Label('Select your Hero!'), btn_upload, out_pl, lbl_pred]))
 
 
-# In[1]:
-
-
-#hide
-get_ipython().system('pip install voila')
-get_ipython().system('jupyter serverextension enable voila --sys-prefix')
-
-
-# In[ ]:
-
 
 
 
